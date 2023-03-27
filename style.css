@@ -1,0 +1,117 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf6f6;
+}
+
+.profile-card {
+  bacground-color: grey;
+  padding: 10px;
+  border-left: 1px solid grey;
+}
+
+.heading {
+  width: 35%;
+  float: right;
+  margin-top: 200px;
+  padding: 20px;
+  border-left: 1px solid grey;
+}
+
+#photo-me {
+  width: 250px;
+  border-radius: 50%;
+}
+#photo-me:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+  border-radius: 20%;
+}
+
+.location {
+  font-size: 20px;
+  padding: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #3a2c21
+}
+
+.links {
+  font-size: 25px;
+  padding: 25px;
+  margin-left: 15px;
+}
+a {
+  color: #3a2c21;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 48px;
+  padding: 5px;
+}
+
+.links {
+  left-margin: 25px;
+}
+
+.content {
+  height: 100%;
+  width: 65%;
+  float: right;
+  margin-top: 200px;
+  padding: 20px;
+ 
+}
+
+.first-row {
+  float: right;
+  height: 50%;
+  width: 100%;
+}
+.name-headline {
+  float: right;
+  width: 290px;
+  text-align: right;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  background-color: #bbb9bc;
+  color: white;
+  font-size: 55px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.second-row {
+  float: right;
+}
+.about {
+  width: 75%;
+  text-align: justify;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flancos {
+  width: 200px;
+  float: right;
+  margin-right: 18px;
+}
+
